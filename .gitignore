@@ -20,7 +20,6 @@ hs_err_pid*
 #gradlew.bat
 build
 /.idea/
-/twitter.txt
 #gradle/
 #gradlew
 #gradlew.bat
