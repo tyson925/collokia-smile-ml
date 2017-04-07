@@ -3,7 +3,7 @@ version '1.0.0'
 description 'collokia smile machine learning stuff'
 
 buildscript {
-    ext.kotlin_version = '1.0.6'
+    ext.kotlin_version = '1.1.1'
     repositories {
         maven {
             url "https://collokia.artifactoryonline.com/collokia/collokia-internal"
@@ -48,13 +48,13 @@ targetCompatibility = JavaVersion.VERSION_1_8
 dependencies {
 
     // https://mvnrepository.com/artifact/com.github.haifengl/smile-core
-    compile group: 'com.github.haifengl', name: 'smile-core', version: '1.2.3'
+    compile group: 'com.github.haifengl', name: 'smile-core', version: "${smileVersion}"
 
     // https://mvnrepository.com/artifact/com.github.haifengl/smile-nlp
-    compile group: 'com.github.haifengl', name: 'smile-nlp', version: '1.2.3'
+    compile group: 'com.github.haifengl', name: 'smile-nlp', version: "${smileVersion}"
     
 // https://mvnrepository.com/artifact/com.github.haifengl/smile-plot
-    compile group: 'com.github.haifengl', name: 'smile-plot', version: '1.2.3'
+    compile group: 'com.github.haifengl', name: 'smile-plot', version: "${smileVersion}"
 
     //compile "org.elasticsearch:elasticsearch:$versionElasticSearch"
     //compile "org.elasticsearch.client:transport:$versionElasticSearch"
