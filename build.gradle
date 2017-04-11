@@ -49,27 +49,22 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.github.haifengl/smile-core
     compile group: 'com.github.haifengl', name: 'smile-core', version: "${smileVersion}"
-
     // https://mvnrepository.com/artifact/com.github.haifengl/smile-nlp
     compile group: 'com.github.haifengl', name: 'smile-nlp', version: "${smileVersion}"
-    
 // https://mvnrepository.com/artifact/com.github.haifengl/smile-plot
     compile group: 'com.github.haifengl', name: 'smile-plot', version: "${smileVersion}"
-
-    //compile "org.elasticsearch:elasticsearch:$versionElasticSearch"
-    //compile "org.elasticsearch.client:transport:$versionElasticSearch"
-    //compile "org.elasticsearch:elasticsearch-spark-20_${scalaVersion}:$versionElasticSearchMR"
-
+    // https://mvnrepository.com/artifact/com.github.haifengl/smile-math
+    compile group: 'com.github.haifengl', name: 'smile-math', version: "${smileVersion}"
+    // https://mvnrepository.com/artifact/com.github.haifengl/smile-interpolation
+    compile group: 'com.github.haifengl', name: 'smile-interpolation', version: "${smileVersion}"
 
     compile "com.collokia:collokia-common-util:$util_version"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    //compile "org.apache.spark:spark-mllib_${scalaVersion}:${version_Spark}"
-    //compile "org.apache.spark:spark-sql_${scalaVersion}:${version_Spark}"
-    //compile "org.apache.spark:spark-core_${scalaVersion}:${version_Spark}"
-    //compile "org.apache.spark:spark-streaming_${scalaVersion}:${version_Spark}"
+
 
     compile "joda-time:joda-time:$version_jodatime"
     compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:$version_jackson"
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-csv:$version_jackson"
     compile "com.fasterxml.jackson.core:jackson-core:$version_jackson"
     compile "com.fasterxml.jackson.core:jackson-databind:$version_jackson"
     compile "com.fasterxml.jackson.module:jackson-module-kotlin:$version_jackson_kotlin"

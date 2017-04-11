@@ -1,7 +1,7 @@
 package uy.com.collokia.ml
 
 import smile.data.parser.ArffParser
-import uy.com.collokia.util.array2dOfDouble
+import uy.com.collokia.common.utils.array2dOfDouble
 
 
 class SmileML {
