@@ -15,12 +15,12 @@ open class KaggleTestData @JsonCreator constructor(@JsonProperty("id") val id: S
 }
 
 
-open class TitanicPassanger @JsonCreator constructor(@JsonProperty("passengerId")val passengerId: Int,@JsonProperty("survived")val survived :Int,
-                                                @JsonProperty("pClass") val pClass : String?, @JsonProperty("name") val name : String?,
-                                                @JsonProperty("sex")  val sex : String?,@JsonProperty("age") val age : String?,
-                                                @JsonProperty("sibSp")  val sibSp : String?, @JsonProperty("parch") val parch : String?,
-                                                @JsonProperty("ticket")  val ticket : String?,@JsonProperty("fare") val fare : Double?,
-                                                @JsonProperty("cabin")  val cabin : String?, @JsonProperty("embarked") val embarked : String?) {
+open class TitanicPassenger @JsonCreator constructor(@JsonProperty("passengerId")val passengerId: Int, @JsonProperty("survived")val survived :Int,
+                                                     @JsonProperty("pClass") val pClass : String?, @JsonProperty("name") val name : String?,
+                                                     @JsonProperty("sex")  val sex : String?, @JsonProperty("age") val age : String?,
+                                                     @JsonProperty("sibSp")  val sibSp : String?, @JsonProperty("parch") val parch : String?,
+                                                     @JsonProperty("ticket")  val ticket : String?, @JsonProperty("fare") val fare : Double?,
+                                                     @JsonProperty("cabin")  val cabin : String?, @JsonProperty("embarked") val embarked : String?) {
 
 
     override fun toString(): String {

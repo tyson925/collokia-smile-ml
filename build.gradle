@@ -57,6 +57,9 @@ dependencies {
     compile group: 'com.github.haifengl', name: 'smile-math', version: "${smileVersion}"
     // https://mvnrepository.com/artifact/com.github.haifengl/smile-interpolation
     compile group: 'com.github.haifengl', name: 'smile-interpolation', version: "${smileVersion}"
+    // https://mvnrepository.com/artifact/com.github.haifengl/smile-data
+    compile group: 'com.github.haifengl', name: 'smile-data', version: "${smileVersion}"
+
 
     compile "com.collokia:collokia-common-util:$util_version"
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
